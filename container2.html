@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <title>vanilla css container implementation</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .sec{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 1.5rem;
+            margin: 1rem;
+            padding: 0.5rem;
+
+        }
+        img{
+            width: 100%;
+            height: 50%;
+        }
+        .container{
+            height: 350px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 2px 1px rgb(9, 2, 83);
+        }
+        .para{
+            padding: 1rem;
+        }
+        .para>h1{
+            padding-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <section class="sec">
+        <div class="container">
+            <img src="https://github.com/gregoryamaefule/Mmesoma/blob/main/ccna.jpg?raw=true" alt="ccna book">
+            <section class="para">
+                <h1>
+                    Ethereum Community
+                </h1>
+                <p>
+                    Ethereum is completely based on
+                    community. It is made up of people from all
+                    different backgrounds and interests. See how you can join in.
+
+                </p>
+            </section>
+        </div>
+        <div class="container">
+            <img src="https://github.com/gregoryamaefule/Mmesoma/blob/main/ccna.jpg?raw=true" alt="ccna book">
+            <section class="para">
+                <h1>
+                    Ethereum Community
+                </h1>
+                <p>
+                    Ethereum is completely based on
+                    community. It is made up of people from all
+                    different backgrounds and interests. See how you can join in.
+
+                </p>
+            </section>
+        </div>
+        <div class="container">
+            <img src="https://github.com/gregoryamaefule/Mmesoma/blob/main/ccna.jpg?raw=true" alt="ccna book">
+            <section class="para">
+                <h1>
+                    Ethereum Community
+                </h1>
+                <p>
+                    Ethereum is completely based on
+                    community. It is made up of people from all
+                    different backgrounds and interests. See how you can join in.
+
+                </p>
+            </section>
+        </div>
+    </section>
+</body>
+</html>
